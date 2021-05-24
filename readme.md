@@ -1,6 +1,6 @@
 # DarKnight
 
-##Dark Theme for Gedit, the default text editor of the GNOME.
+## Dark Theme for Gedit, the default text editor of the GNOME.
 
 ### How to apply:
 
