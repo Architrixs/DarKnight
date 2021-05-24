@@ -8,4 +8,6 @@
 2. Using the `+` button add the downloaded DarKnight.xml file.
 3. Select the theme.
 
+![DarKnight](https://github.com/Architrixs/DarKnight/blob/main/DarKnight%20theme.png)
+
 ### Open Issue for any Errors
