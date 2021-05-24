@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+ By Architrixs, 24 May 2021 
+ https://github.com/Architrixs
+-->
+
+<style-scheme id="darknight" _name="DarKnight" version="1.0">
+  <author>Archit Gopal (Architrixs)</author>
+  <_description>Dark Color scheme for Gedit</_description>
+
+  <!-- -->
+
+  <!-- DarKnight Palette -->
+  <color name="White"                       value="#ffffff"/>
+  <color name="PurpleDark"                  value="#0F0724"/>
+  <color name="PurpleMid"                   value="#4e4e8f"/>
+  <color name="PurpleLight"                 value="#8b8bff"/>
+  <color name="GreyDark"                    value="#2e2e2e"/>
+  <color name="GreyDark2"                   value="#303030"/>
+  <color name="SkyBlue"                     value="#B8DEFF"/>
+  <color name="GreyBlue"                    value="#547D7D"/>
+  <color name="OrangeLight"                 value="#FFCD8B"/>
+  <color name="OrangePale"                  value="#ffcd8b"/>
+  <color name="OrangePaleMid"               value="#cd8b60"/>
+  <color name="VioletLight"                 value="#C5A8FF"/>
+  <color name="PinkMid"                     value="#c080d0"/>
+  <color name="GreenDeep"                   value="#349D9D"/>
+  <color name="BlueLight"                   value="#808bed"/>
+  <color name="BluePale"                    value="#8b8bcd"/>
+  <color name="RedPale"                     value="#ce4e4e"/>
+  <color name="RedDeep"                     value="#8b0000"/>
+
+  <!-- DarKnight Additions for GEdit -->
+    <!-- 5 shades lighter then PurpleDark for current line -->
+  <color name="PurpleDarkTint"              value="#1D0D44"/>
+
+
+  <!-- Global Settings -->
+  <style name="text" foreground="SkyBlue" background="PurpleDark"/>
+  <style name="selection" foreground="#white" background="PurpleMid"/>
+  <style name="cursor" foreground="PurpleLight"/>
+  <style name="current-line" background="PurpleDarkTint"/> 
+  <style name="line-numbers" foreground="BluePale" background="GreyDark"/>
+
+  <!-- Bracket Matching -->
+  <style name="bracket-match" foreground="SkyBlue" background="PurpleMid"/>
+  <!-- not included in original DarKnight -->
+  <style name="bracket-mismatch" foreground="SkyBlue" background="RedPale"/>
+
+  <!-- Right Margin -->
+  <style name="right-margin"                background="RedDeep"/>
+
+  <!-- Search Matching -->
+  <style name="search-match" foreground="GreyDark2" background="OrangePaleMid" bold="true"/>
+
+  <!-- Comments -->
+  <style name="def:comment" foreground="GreyBlue"/>
+  <!-- not bold in original DarKnight -->
+  <style name="def:shebang" foreground="GreyBlue" bold="true"/>
+  <!-- not italic in original DarKnight -->
+  <style name="def:doc-comment-element" italic="true"/>
+
+  <!-- Constants -->
+  <style name="def:constant" foreground="OrangeLight"/>
+  <style name="def:base-n-integer" foreground="OrangeLight"/>
+  <style name="def:complex" foreground="OrangeLight"/>
+  <style name="def:decimal" foreground="OrangeLight"/>
+
+  <style name="def:string" foreground="OrangePale"/>
+  <style name="def:special-char" foreground="PinkMid"/>
+  <style name="def:special-constant" foreground=""/>
+  <style name="def:floating-point" foreground="OrangeLight"/>
+  <style name="def:function" foreground="bright-blue"/>
+
+  <!-- Identifiers -->
+  <style name="def:identifier" foreground="VioletLight"/>
+
+  <!-- Statements -->
+  <style name="def:statement" foreground="BlueLight" bold="false"/>
+
+  <!-- Types -->
+  <style name="def:type" foreground="VioletLight" bold="false"/>
+
+  <!-- Others -->
+  <style name="def:keyword" foreground="BlueLight" bold="false"/> 
+  <style name="def:preprocessor" foreground="GreenDeep"/>
+  <style name="def:error" foreground="White" background="RedPale" bold="false"/>
+  <style name="def:underlined" italic="true" underline="true"/> 
+  <style name="latex:display-math" foreground="#slate blue" bold="false"/>
+
+  <!-- Language specific -->
+  <style name="diff:added-line"             foreground="VioletLight"/>
+  <style name="diff:removed-line"           foreground="GreyBlue"/> 
+  <style name="diff:changed-line"           foreground="#00FFFF"/>
+  <style name="diff:diff-file"              foreground="GreenDeep" bold="true"/> 
+  <style name="diff:location"               foreground="BlueLight"/> 
+  <style name="diff:special-case"           foreground="#FFFF00" bold="true"/>
+
+</style-scheme>
+
